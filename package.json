@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@netlify/build": "26.5.1",
+    "@netlify/plugin-nextjs": "4.3.0",
     "netlify": "11.0.0",
     "next": "^10.2.3",
     "react": "17.0.2",
