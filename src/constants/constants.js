@@ -1,5 +1,54 @@
 export const projects = [
   {
+    title: "School Result and Placement Viewer",
+    description:
+      "Using Node.js, RractJS & API which is useful for the student to get to see their result and placement ",
+    image: "/images/1.png",
+    tags: ["Reactjs", "Express", "API", "Node", "CRYING"],
+    source: "https://github.com/Kinfe123/ResultViewerWebsitev1.3",
+    // source: "https://github.com/Kinfe123/kinfish-customer-cli",
+    visit: "https://yaberusresultv1.netlify.app/",
+    id: 0
+  },
+  {
+    title: "A2SV(africa to silicon valley) registration and profile",
+    description:
+      "Using Node.js, Express & API i build a registration and profile page for the a2sv community",
+    image: "/images/1.png",
+    tags: ["API", "Express", "Node", "React", "CRYING"],
+    // source: "https://github.com/Kinfe123/kinfish-customer-cli",
+    visit: "https://a2sv-sheets.vercel.app",
+    id: 1
+  },
+  {
+    title: "A2SV(africa to silicon valley) CRUD API",
+    description:
+      "Using Node.js, Express  i build CRUD API for community management",
+    image: "/images/1.png",
+    tags: ["Express", "Node", "CRYING"],
+    // source: "https://github.com/Kinfe123/kinfish-customer-cli",
+    visit: "https://a2sv-sheets.vercel.app",
+    id: 1
+  },
+  {
+    title: "DEPLOYEMENT WEBSITE",
+    description: "HTML5 , CSS and JS I build a deployment website",
+    image: "/images/1.png",
+    tags: ["HTML", "CSS", "JS", "CRYING"],
+    source: "https://github.com/Kinfe123/KINFISH-DELOYMENT-WEBSITE",
+    visit: "https://github.com/Kinfe123/KINFISH-DELOYMENT-WEBSITE",
+    id: 0
+  },
+  {
+    title: "VS CODE EXTENSION",
+    description: "Bootstrap Starter vscode extension ",
+    image: "/images/1.png",
+    tags: ["MD", "Snippet", "CRYING"],
+    source: "https://github.com/Kinfe123/simplestarterboostrap",
+    visit: "https://github.com/Kinfe123/simplestarterboostrap"
+  },
+
+  {
     title: "STUDENT MANAGEMENT CLI",
     description:
       "Using Node.js, Express & MongoDB you'll learn how to build a Full Stack STUDENT MANAGEMENT CLI",
@@ -56,6 +105,24 @@ export const projects = [
     tags: ["ReactJS", "CRYING"],
     source: "hhttps://github.com/Kinfe123/ResultViewerWebsitev1.3",
     visit: "https://yaberusresultv1.netlify.app",
+    id: 3
+  },
+  {
+    title: "Calculator website with animation and beautiful ui",
+    description: "Amazing UI calculator webiste ",
+    image: "/images/4.jpg",
+    tags: ["HTML5", "CSS", "JS", "CRYING"],
+    source: "https://github.com/Kinfe123/ResultViewerWebsitev1.3",
+    visit: "https://yaberusresultv1.netlify.app",
+    id: 3
+  },
+  {
+    title: "Space invader game",
+    description: "Space invader game from scratch using python",
+    image: "/images/4.jpg",
+    tags: ["Python", "CRYING"],
+    source: "https://github.com/Kinfe123/ResultViewerWebsitev1.3",
+    // visit: "https://yaberusresultv1.netlify.app",
     id: 3
   }
 ];

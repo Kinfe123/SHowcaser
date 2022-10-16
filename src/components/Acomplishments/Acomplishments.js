@@ -8,15 +8,15 @@ import {
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-  { number: 10, text: "Open Source Shits" },
-  { number: 300, text: "Crying fellow" },
+  { number: 50, text: "Open Source Project / shits" },
+  { number: 300, text: "Students /Crying fellow" },
   { number: 400, text: "Students who are currently crying because of me" },
   { number: "10K", text: "Future Projected Crying mession" }
 ];
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Crying Times </SectionTitle>
+    <SectionTitle>Accomplishment+Crying Times </SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index} style={{ padding: "3px", textAlign: "center" }}>

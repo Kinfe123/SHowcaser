@@ -6,6 +6,7 @@ import {
   DiHtml5,
   DiFirebase,
   DiNodejs,
+  DiCode,
   DiReact,
   DiZend
 } from "react-icons/di";
@@ -28,10 +29,10 @@ const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
     <br />
-    <SectionTitle>My Enemies</SectionTitle>
+    <SectionTitle>My Skills + enemies</SectionTitle>
     <SectionText>
-      I have worked with a lot of Enemies which develop my skill to cope up with
-      those enemies that i have been working quite often{" "}
+      I have worked with a lot of frameworks and programming languages which
+      bring enemy against me{" "}
     </SectionText>
     <List>
       <ListItem>
@@ -39,7 +40,10 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>What the users hate to see</ListTitle>
           <ListParagraph>
-            Expr. with <br /> ReactJS
+            Expr. with <br />✅ ReactJS
+            <br />
+            ✅ NextJS
+            <br />✅ ReactNative
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -48,7 +52,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Database</ListTitle>
           <ListParagraph>
-            Expr. with <br /> MongoDB
+            Expr. with <br /> ✅ MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -58,7 +62,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
-            Expr. with <br /> Nodejs
+            Expr. with <br /> ✅ Nodejs
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -67,7 +71,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>What other the user hate to see</ListTitle>
           <ListParagraph>
-            Expr. with <br /> HTML & CSS
+            Expr. with <br /> ✅ HTML <br /> ✅ CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -76,7 +80,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Python</ListTitle>
           <ListParagraph>
-            Expr. with <br /> Python
+            Expr. with <br />✅ Python
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -85,7 +89,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Javascript</ListTitle>
           <ListParagraph>
-            Expr. with <br /> Javascript
+            Expr. with <br /> ✅ Javascript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -94,7 +98,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Java</ListTitle>
           <ListParagraph>
-            Expr. with <br /> Java
+            Expr. with <br />✅ Java
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -103,7 +107,16 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>C++</ListTitle>
           <ListParagraph>
-            Expr. with <br /> C++
+            Expr. with <br /> ✅ C++
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiCode size="4rem" />
+        <ListContainer>
+          <ListParagraph>
+            Expr. with <br /> ✅ Problem solving <br /> ✅ Leetcode
+            <br /> ✅ Hackerrank
           </ListParagraph>
         </ListContainer>
       </ListItem>
