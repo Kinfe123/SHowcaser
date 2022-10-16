@@ -23,7 +23,7 @@ import {
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Projects..Not they are shits</SectionTitle>
+    <SectionTitle main>Projects + crying discovery 😁</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (

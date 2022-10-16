@@ -7,7 +7,20 @@ import {
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection, Divi } from "./HeroStyles";
-
+const onButtonClick = () => {
+  // using Java Script method to get PDF file
+  fetch("KINFE_MICHAEL_TARIKU.pdf").then((response) => {
+    response.blob().then((blob) => {
+      // Creating new object of PDF file
+      const fileURL = window.URL.createObjectURL(blob);
+      // Setting various property values
+      let alink = document.createElement("a");
+      alink.href = fileURL;
+      alink.download = "KINFE_MICHAEL_TARIKU.pdf";
+      alink.click();
+    });
+  });
+};
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
@@ -15,10 +28,9 @@ const Hero = () => (
         Hello <br /> this is KINFE
       </SectionTitle>
       <SectionText>
-        HEY I am Kinfe Michael Tariku , My job is not working but i am kind of
-        finding peoples hire in their company which i would love joining it
-        ....Next time you wear a jeans and tshirt and we will be talking a lot
-        about my shit...
+        I am Kinfe Michael Tariku , teen age programmer (Software engineer)
+        based on Ethiopia ,Adiss Ababa. i like building thing from scatch and
+        sharing what i have discovered
       </SectionText>
       <Divi>
         <Button
@@ -28,14 +40,7 @@ const Hero = () => (
         >
           Ping shit
         </Button>
-        <Button
-          onClick={() => {
-            window.location =
-              "https://www.linkedin.com/in/kinfe-michael-tariku-1497b3201/";
-          }}
-        >
-          Download Myresume
-        </Button>
+        <Button onClick={onButtonClick}>Download My resume</Button>
       </Divi>
     </LeftSection>
   </Section>
